@@ -283,15 +283,15 @@ X FB 5 650 -200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# taobao-cp_CP47uf,10V
+# taobao-cp_CP47uf,50V
 #
-DEF taobao-cp_CP47uf,10V C 0 10 N N 1 F N
+DEF taobao-cp_CP47uf,50V C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "taobao-cp_CP47uf,10V" 10 -80 50 H V L CNN
-F2 "w_smd_cap:c_elec_5x5.3" 0 0 50 H I C CNN
+F1 "taobao-cp_CP47uf,50V" 10 -80 50 H V L CNN
+F2 "w_smd_cap:c_elec_6.3x7.7" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_Elec*5x5.3*
+ CP_Elec*6.3x7.7*
 $ENDFPLIST
 DRAW
 S -60 -12 60 -27 0 1 0 F
@@ -303,15 +303,15 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# taobao-l_L_2.2uH,CD43
+# taobao-l_L_2.2uH,1210
 #
-DEF taobao-l_L_2.2uH,CD43 L 0 10 N N 1 F N
+DEF taobao-l_L_2.2uH,1210 L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "taobao-l_L_2.2uH,CD43" 30 -40 50 H V L CNN
-F2 "w_smd_inductors:inductor_smd_4.8x2.8mm" 0 0 50 H I C CNN
+F1 "taobao-l_L_2.2uH,1210" 30 -40 50 H V L CNN
+F2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- L*CD43*
+ L*1210*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40

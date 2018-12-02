@@ -536,39 +536,6 @@ F 3 "~" H 9900 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-l:L_2.2uH,CD43 L1
-U 1 1 5C06343C
-P 4700 1300
-F 0 "L1" V 4885 1300 50  0000 C CNN
-F 1 "L_2.2uH,CD43" V 4794 1300 50  0000 C CNN
-F 2 "w_smd_inductors:inductor_smd_4.8x2.8mm" H 4700 1300 50  0001 C CNN
-F 3 "" H 4700 1300 50  0001 C CNN
-	1    4700 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-l:L_2.2uH,CD43 L2
-U 1 1 5C063614
-P 4700 3450
-F 0 "L2" V 4885 3450 50  0000 C CNN
-F 1 "L_2.2uH,CD43" V 4794 3450 50  0000 C CNN
-F 2 "w_smd_inductors:inductor_smd_4.8x2.8mm" H 4700 3450 50  0001 C CNN
-F 3 "" H 4700 3450 50  0001 C CNN
-	1    4700 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-l:L_2.2uH,CD43 L3
-U 1 1 5C0638E1
-P 4700 5750
-F 0 "L3" V 4885 5750 50  0000 C CNN
-F 1 "L_2.2uH,CD43" V 4794 5750 50  0000 C CNN
-F 2 "w_smd_inductors:inductor_smd_4.8x2.8mm" H 4700 5750 50  0001 C CNN
-F 3 "" H 4700 5750 50  0001 C CNN
-	1    4700 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L taobao-components:AP2120N U4
 U 1 1 5C066287
 P 9000 1950
@@ -839,17 +806,6 @@ F 3 "~" H 11350 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-cp:CP47uf,10V C14
-U 1 1 5C050395
-P 12800 1600
-F 0 "C14" H 12900 1650 50  0000 L CNN
-F 1 "CP47uf,10V" H 12900 1600 50  0000 L CNN
-F 2 "w_smd_cap:c_elec_5x5.3" H 12800 1600 50  0001 C CNN
-F 3 "~" H 12800 1600 50  0001 C CNN
-	1    12800 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0120
 U 1 1 5C050571
 P 12050 2000
@@ -953,17 +909,6 @@ F 1 "C104,0603" H 11450 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11350 2750 50  0001 C CNN
 F 3 "~" H 11350 2750 50  0001 C CNN
 	1    11350 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-cp:CP47uf,10V C19
-U 1 1 5C0A360B
-P 12800 2750
-F 0 "C19" H 12900 2800 50  0000 L CNN
-F 1 "CP47uf,10V" H 12900 2750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12800 2750 50  0001 C CNN
-F 3 "~" H 12800 2750 50  0001 C CNN
-	1    12800 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1073,17 +1018,6 @@ F 3 "~" H 11350 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-cp:CP47uf,10V C25
-U 1 1 5C0A7CEB
-P 12800 3900
-F 0 "C25" H 12900 3950 50  0000 L CNN
-F 1 "CP47uf,10V" H 12900 3900 50  0000 L CNN
-F 2 "w_smd_cap:c_elec_5x5.3" H 12800 3900 50  0001 C CNN
-F 3 "~" H 12800 3900 50  0001 C CNN
-	1    12800 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0124
 U 1 1 5C0A7CF1
 P 12050 4300
@@ -1187,17 +1121,6 @@ F 1 "C104,0603" H 13650 1600 50  0000 L CNN
 F 2 "w_smd_cap:c_elec_5x5.3" H 13550 1600 50  0001 C CNN
 F 3 "~" H 13550 1600 50  0001 C CNN
 	1    13550 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-cp:CP47uf,10V C16
-U 1 1 5C0AD753
-P 15000 1600
-F 0 "C16" H 15100 1650 50  0000 L CNN
-F 1 "CP47uf,10V" H 15100 1600 50  0000 L CNN
-F 2 "w_smd_cap:c_elec_5x5.3" H 15000 1600 50  0001 C CNN
-F 3 "~" H 15000 1600 50  0001 C CNN
-	1    15000 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1307,17 +1230,6 @@ F 3 "~" H 13550 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-cp:CP47uf,10V C22
-U 1 1 5C0AD794
-P 15000 2750
-F 0 "C22" H 15100 2800 50  0000 L CNN
-F 1 "CP47uf,10V" H 15100 2750 50  0000 L CNN
-F 2 "w_smd_cap:c_elec_5x5.3" H 15000 2750 50  0001 C CNN
-F 3 "~" H 15000 2750 50  0001 C CNN
-	1    15000 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0128
 U 1 1 5C0AD79A
 P 14250 3150
@@ -1424,17 +1336,6 @@ F 3 "~" H 13550 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-cp:CP47uf,10V C28
-U 1 1 5C0AD7D5
-P 15000 3900
-F 0 "C28" H 15100 3950 50  0000 L CNN
-F 1 "CP47uf,10V" H 15100 3900 50  0000 L CNN
-F 2 "w_smd_cap:c_elec_5x5.3" H 15000 3900 50  0001 C CNN
-F 3 "~" H 15000 3900 50  0001 C CNN
-	1    15000 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0130
 U 1 1 5C0AD7DB
 P 14250 4300
@@ -1518,4 +1419,103 @@ Wire Wire Line
 Connection ~ 14800 4100
 Wire Wire Line
 	14800 4100 15000 4100
+$Comp
+L taobao-cp:CP47uf,50V C14
+U 1 1 5C04F10F
+P 12800 1600
+F 0 "C14" H 12900 1650 50  0000 L CNN
+F 1 "CP47uf,50V" H 12900 1600 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_6.3x7.7" H 12800 1600 50  0001 C CNN
+F 3 "~" H 12800 1600 50  0001 C CNN
+	1    12800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP47uf,50V C16
+U 1 1 5C04F461
+P 15000 1600
+F 0 "C16" H 15100 1650 50  0000 L CNN
+F 1 "CP47uf,50V" H 15100 1600 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_6.3x7.7" H 15000 1600 50  0001 C CNN
+F 3 "~" H 15000 1600 50  0001 C CNN
+	1    15000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP47uf,50V C19
+U 1 1 5C062EA4
+P 12800 2750
+F 0 "C19" H 12900 2800 50  0000 L CNN
+F 1 "CP47uf,50V" H 12900 2750 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_6.3x7.7" H 12800 2750 50  0001 C CNN
+F 3 "~" H 12800 2750 50  0001 C CNN
+	1    12800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP47uf,50V C22
+U 1 1 5C062F52
+P 15000 2750
+F 0 "C22" H 15100 2800 50  0000 L CNN
+F 1 "CP47uf,50V" H 15100 2750 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_6.3x7.7" H 15000 2750 50  0001 C CNN
+F 3 "~" H 15000 2750 50  0001 C CNN
+	1    15000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP47uf,50V C25
+U 1 1 5C063012
+P 12800 3900
+F 0 "C25" H 12900 3950 50  0000 L CNN
+F 1 "CP47uf,50V" H 12900 3900 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_6.3x7.7" H 12800 3900 50  0001 C CNN
+F 3 "~" H 12800 3900 50  0001 C CNN
+	1    12800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP47uf,50V C28
+U 1 1 5C0630F4
+P 15000 3900
+F 0 "C28" H 15100 3950 50  0000 L CNN
+F 1 "CP47uf,50V" H 15100 3900 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_6.3x7.7" H 15000 3900 50  0001 C CNN
+F 3 "~" H 15000 3900 50  0001 C CNN
+	1    15000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-l:L_2.2uH,1210 L1
+U 1 1 5C0651A2
+P 4700 1300
+F 0 "L1" V 4900 1300 50  0000 C CNN
+F 1 "L_2.2uH,1210" V 4800 1300 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4700 1300 50  0001 C CNN
+F 3 "" H 4700 1300 50  0001 C CNN
+	1    4700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-l:L_2.2uH,1210 L2
+U 1 1 5C0652FE
+P 4700 3450
+F 0 "L2" V 4900 3450 50  0000 C CNN
+F 1 "L_2.2uH,1210" V 4800 3450 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4700 3450 50  0001 C CNN
+F 3 "" H 4700 3450 50  0001 C CNN
+	1    4700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-l:L_2.2uH,1210 L3
+U 1 1 5C0655CA
+P 4700 5750
+F 0 "L3" V 4750 5500 50  0000 R CNN
+F 1 "L_2.2uH,1210" V 4700 5500 50  0000 R CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4700 5750 50  0001 C CNN
+F 3 "" H 4700 5750 50  0001 C CNN
+	1    4700 5750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
