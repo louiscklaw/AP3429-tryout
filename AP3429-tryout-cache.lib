@@ -150,8 +150,9 @@ ENDDEF
 DEF taobao-components_AP2120N U 0 40 Y Y 1 F N
 F0 "U" 0 -400 50 H V C CNN
 F1 "taobao-components_AP2120N" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" -100 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS *SOT*23*
 $FPLIST
  *SOT*23*
  *SOT*89*
@@ -184,6 +185,26 @@ X FB 5 650 -200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# taobao-l_L_2.2uH,CD43
+#
+DEF taobao-l_L_2.2uH,CD43 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "taobao-l_L_2.2uH,CD43" 30 -40 50 H V L CNN
+F2 "w_smd_inductors:inductor_smd_4.8x2.8mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ L*CD43*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-led_LED_ORANGE
 #
 DEF taobao-led_LED_ORANGE D 0 10 N N 1 F N
@@ -205,6 +226,21 @@ P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
 P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-mounting-hole_MOUNT_M3
+#
+DEF taobao-mounting-hole_MOUNT_M3 H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "taobao-mounting-hole_MOUNT_M3" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *MountingHole*M3**
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
