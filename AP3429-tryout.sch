@@ -791,10 +791,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 3050 8800 3050
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L Connector_Generic:Conn_01x05 J1
 U 1 1 5C04F68A
 P 9000 3850
-F 0 "J?" H 9080 3892 50  0000 L CNN
+F 0 "J1" H 9080 3892 50  0000 L CNN
 F 1 "Conn_01x05" H 9080 3801 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9000 3850 50  0001 C CNN
 F 3 "~" H 9000 3850 50  0001 C CNN
@@ -802,10 +802,10 @@ F 3 "~" H 9000 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_power:+3V0 #PWR?
+L my_power:+3V0 #PWR0119
 U 1 1 5C04F76E
 P 8700 4250
-F 0 "#PWR?" H 8700 4100 50  0001 C CNN
+F 0 "#PWR0119" H 8700 4100 50  0001 C CNN
 F 1 "+3V0" H 8715 4423 50  0000 C CNN
 F 2 "" H 8700 4250 50  0001 C CNN
 F 3 "" H 8700 4250 50  0001 C CNN
