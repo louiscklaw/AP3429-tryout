@@ -1,0 +1,183 @@
+EESchema Schematic File Version 4
+LIBS:AP3429-tryout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C0481CC
+P 4200 1550
+F 0 "#PWR?" H 4200 1400 50  0001 C CNN
+F 1 "+3V3" H 4215 1723 50  0000 C CNN
+F 2 "" H 4200 1550 50  0001 C CNN
+F 3 "" H 4200 1550 50  0001 C CNN
+	1    4200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V0 #PWR?
+U 1 1 5C048B8D
+P 5900 1550
+F 0 "#PWR?" H 5900 1400 50  0001 C CNN
+F 1 "+3V0" H 5915 1723 50  0000 C CNN
+F 2 "" H 5900 1550 50  0001 C CNN
+F 3 "" H 5900 1550 50  0001 C CNN
+	1    5900 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1550 5900 1700
+Wire Wire Line
+	5500 1700 5900 1700
+Connection ~ 5900 1700
+Wire Wire Line
+	5900 1700 5900 1800
+Wire Wire Line
+	5000 2200 5000 2400
+Wire Wire Line
+	5000 2400 5900 2400
+Wire Wire Line
+	5900 2400 5900 2000
+Wire Wire Line
+	4200 1550 4200 1700
+Wire Wire Line
+	4200 1700 4500 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5C050B0C
+P 5000 2550
+F 0 "#PWR?" H 5000 2300 50  0001 C CNN
+F 1 "GND" H 5005 2377 50  0000 C CNN
+F 2 "" H 5000 2550 50  0001 C CNN
+F 3 "" H 5000 2550 50  0001 C CNN
+	1    5000 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2550 5000 2400
+Connection ~ 5000 2400
+$Comp
+L taobao-c:C106,0603 C?
+U 1 1 5C0629A0
+P 5900 1900
+F 0 "C?" H 5992 1946 50  0000 L CNN
+F 1 "C106,0603" H 5992 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 1900 50  0001 C CNN
+F 3 "~" H 5900 1900 50  0001 C CNN
+	1    5900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:AP2120N U?
+U 1 1 5C066287
+P 5000 1900
+F 0 "U?" H 5000 2465 50  0000 C CNN
+F 1 "AP2120N" H 5000 2374 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4900 1400 50  0001 C CNN
+F 3 "" H 5000 1900 50  0001 C CNN
+	1    5000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V0 #PWR?
+U 1 1 5C0986C4
+P 1500 1500
+F 0 "#PWR?" H 1500 1350 50  0001 C CNN
+F 1 "+3V0" H 1515 1673 50  0000 C CNN
+F 2 "" H 1500 1500 50  0001 C CNN
+F 3 "" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C08E455
+P 1500 2600
+F 0 "#PWR?" H 1500 2350 50  0001 C CNN
+F 1 "GND" H 1505 2427 50  0000 C CNN
+F 2 "" H 1500 2600 50  0001 C CNN
+F 3 "" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2300 1500 2600
+Wire Wire Line
+	1500 1950 1500 2100
+Wire Wire Line
+	1500 1750 1500 1500
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5C08E446
+P 1500 1850
+F 0 "R?" H 1559 1896 50  0000 L CNN
+F 1 "R102,0603" H 1559 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1500 1850 50  0001 C CNN
+F 3 "~" H 1500 1850 50  0001 C CNN
+	1    1500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_ORANGE D?
+U 1 1 5C08E440
+P 1500 2200
+F 0 "D?" V 1546 2132 50  0000 R CNN
+F 1 "LED_ORANGE" V 1455 2132 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 1500 2200 50  0001 C CNN
+F 3 "~" V 1500 2200 50  0001 C CNN
+	1    1500 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3000 4800 3000
+Wire Wire Line
+	4550 2950 4550 3000
+$Comp
+L power:+5V #PWR?
+U 1 1 5C04A789
+P 4550 2950
+F 0 "#PWR?" H 4550 2800 50  0001 C CNN
+F 1 "+5V" H 4565 3123 50  0000 C CNN
+F 2 "" H 4550 2950 50  0001 C CNN
+F 3 "" H 4550 2950 50  0001 C CNN
+	1    4550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3100 4550 3150
+Wire Wire Line
+	4800 3100 4550 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5C047EFA
+P 4550 3150
+F 0 "#PWR?" H 4550 2900 50  0001 C CNN
+F 1 "GND" H 4555 2977 50  0000 C CNN
+F 2 "" H 4550 3150 50  0001 C CNN
+F 3 "" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C047D73
+P 5000 3000
+F 0 "J?" H 5080 2992 50  0000 L CNN
+F 1 "Conn_01x02" H 5080 2901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
